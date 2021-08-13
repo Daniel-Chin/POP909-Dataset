@@ -4,8 +4,8 @@ This is the dataset repository for the paper: [POP909: A Pop-song Dataset for Mu
 ## Dataset Zip File Structure
 * index.xlsx: it contains a list describing the baisc information of each index folder/file (name, number of beats per measure, number of quavers per measure, and modify times)
   
-* index folder: it contains several files for a data in the POP909 dataset:
- * index.mid: the music midi file of the arrangement song (MELODY track for the main melody, BRIDGE track for the sub-melody, and PIANO track for the accompaniment)
+* `index` folder: it contains several files for a data in the POP909 dataset:
+ * `index`.mid: the music midi file of the arrangement song (MELODY track for the main melody, BRIDGE track for the sub-melody, and PIANO track for the accompaniment)
  * beat_audio/beat_midi.txt: the extracted beat information from the raw audio/midi, the first column is the time (in sec), and the seconcd column is the beat order
  * chord_audio/beat_audio.txt: the extracted chord information from the raw audio/midi, the first/second column is the start/end time (in sec), and the third column is the chord name
  * key_audio.txt: the extracted key change information from the raw audio, the first/second column is the start/end time (in sec), and the third column is the key change.
